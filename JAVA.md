@@ -123,11 +123,11 @@
 
     - A method has a name, a return type, and a list of parameters. The name of the method is used to identify the method and call it from other code. The return type specifies the data type of the value that the method returns, or void if the method does not return a value. The parameters are used to pass information to the method, and can have their own data types and names.
 
-* Parameter
+* Parameters
     - is a variable that is passed to a method as an argument when the method is called. The parameter is used to pass information and it allows the method to perform its task using the supplied information.
 
 ## Main() Method
-```
+```java
 public static void main(String[] args) {
     // main method body
 }
@@ -148,7 +148,7 @@ public static void main(String[] args) {
 
 * Local or Block Scope
     - These are variables that are defined within a method or a block of code. They are only accessible within the block in which they are defined and are not visible to other parts of the program.
-    ```
+    ```java
     public class Example {
         
         public static void main(String[] args) {
@@ -168,7 +168,7 @@ public static void main(String[] args) {
 * Instance or Object Scope
     - This a variable that is defined at the class level, outside of any method or block of code. It is associated with an instance of a class and is accessible to all methods of the class. Instance variables are created when an instance of a class is created and are destroyed when the instance is garbage collected. They are stored in the memory heap, which is shared among all instances of a class.
 
-    ```
+    ```java
     public class Example {
 
         int x; // instance variable x
@@ -182,7 +182,7 @@ public static void main(String[] args) {
         }
     }
     ```
-    ```
+    ```java
     public class Main {
 
         public static void main(String[] args) {
@@ -201,7 +201,7 @@ public static void main(String[] args) {
     - uses "Static" keyword. The static variables and methods are associated with a class, rather than with an instance of the class. This means that they are shared among all instances of the class, and it is not visible or accessible to the code outside of that class.
 
 
-    ```
+    ```java
     class MyClass {
 
         static int x = 0;  // static variable with class scope
@@ -211,7 +211,7 @@ public static void main(String[] args) {
         }
     }
     ```
-    ```
+    ```java
     // same package
     public class Main {
 
@@ -225,7 +225,7 @@ public static void main(String[] args) {
 * Global Scope
     - variables and methods are accessible anywhere in the program
   
-    ```
+    ```java
     // public allows the class to be declared anywhere in the program
     Public class Example {
 
@@ -300,7 +300,7 @@ public static void main(String[] args) {
 
 * In Java, generics are a feature that allows you to define classes, interfaces, and methods that work with any type, rather than being restricted to a specific type. Generics are used to create reusable and flexible code that can be used with multiple types, while still providing type safety. To define a generic class, interface, or method, you use a type parameter, which is a placeholder for a specific type that will be provided when the class, interface, or method is used.
 
-    ```
+    ```java
     class MyClass<T> {  // generic class with a type parameter T
 
         T value;  // field of type T
@@ -314,7 +314,7 @@ public static void main(String[] args) {
         }
     }
     ```
-    ```
+    ```java
     class Main {
 
         void test() {
@@ -378,7 +378,7 @@ public static void main(String[] args) {
 
     - You can also include a finally block after the catch blocks to specify code that should be executed regardless of whether an exception is thrown. The finally block is optional, but if included, it will always be executed whether an exception is thrown or not.
 
-```
+```java
 try {
 // code that might throw an exception
 } catch (ExceptionType1 e) {
@@ -395,7 +395,7 @@ try {
 * Exception declaring is a mechanism for handling exceptions that may be thrown by a method. When a method throws an exception, it must either catch the exception in a try-catch block or declare the exception in the method's throws clause. To declare an exception in a method's throws clause, you can use the throws keyword followed by the exception class.
 
 
-```
+```java
 public void doSomething() throws IOException {
    // code that might throw an IOException
 }
@@ -417,12 +417,12 @@ public void doSomething() throws IOException {
 
 ## Custom Exception
 
-```
+```java
 public class MyException extends Exception {
    // constructor and other methods
 }
 ```
-```
+```java
 try {
    // code that might throw a custom exception
    if (someErrorCondition) {
@@ -435,7 +435,7 @@ try {
 
 ## Exception Hierarchy
 
-```
+```java
 Throwable
   |
   +-- Exception
@@ -443,7 +443,7 @@ Throwable
 
 ```
 **Checked Exceptions**
-```
+```java
 Throwable
   |
   +-- Exception
@@ -461,7 +461,7 @@ Throwable
   |     |     +-- NoSuchMethodException
 ```
 **Unchecked Exceptions**
-```
+```java
 Throwable
   |
   +-- Exception
@@ -503,7 +503,7 @@ Throwable
   |           +-- UnsupportedOperationException
 ```
 **ERRORS**
-```
+```java
 Throwable
   |
   +-- Error
