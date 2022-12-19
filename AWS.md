@@ -9,7 +9,7 @@
     - one of the services AWS provides, which is their Relational Database Service.
     - PostgreSQL
 
-## PosgreSQL
+## PostgresSQL
     - DDL : Data Definition Language
         - query to create and edit tables
     - DML : Data Manipulation Language
