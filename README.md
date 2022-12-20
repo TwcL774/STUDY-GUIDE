@@ -4,7 +4,7 @@
 ## INCLUDES
 * [x] Java
 * [x] Spring
-* SQL
+* [x] SQL
 * [x] Git
 * Unix commands
 * AWS
