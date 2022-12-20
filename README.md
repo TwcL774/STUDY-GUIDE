@@ -2,10 +2,10 @@
 - Notes I created during learning
 
 ## INCLUDES
-[x] Java
-[x] Spring
+* [x] Java
+* [x] Spring
 * SQL
-[x] Git
+* [x] Git
 * Unix commands
 * AWS
-[x] SRE
+* [x] SRE
