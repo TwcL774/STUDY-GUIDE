@@ -8,12 +8,12 @@
 
 * Some of the specific tasks and responsibilities that an SRE might have include:
 
-    * Monitoring and alerting: Setting up and maintaining monitoring systems to identify and alert on potential issues or failures in the system.
-    * Incident response: Responding to and resolving issues or outages as they arise. This may involve working with other teams to identify the root cause of the problem and implement a resolution.
-    * Performance optimization: Identifying and addressing performance bottlenecks or issues in the system.
-    * Capacity planning: Ensuring that the system has sufficient capacity to meet the needs of the organization.
-    * Automation: Implementing automation to improve reliability, efficiency, and scalability of the system.
-    * Tooling and infrastructure development: Building and maintaining tools and infrastructure that support the operation and maintenance of the system.
+  * Monitoring and alerting: Setting up and maintaining monitoring systems to identify and alert on potential issues or failures in the system.
+  * Incident response: Responding to and resolving issues or outages as they arise. This may involve working with other teams to identify the root cause of the problem and implement a resolution.
+  * Performance optimization: Identifying and addressing performance bottlenecks or issues in the system.
+  * Capacity planning: Ensuring that the system has sufficient capacity to meet the needs of the organization.
+  * Automation: Implementing automation to improve reliability, efficiency, and scalability of the system.
+  * Tooling and infrastructure development: Building and maintaining tools and infrastructure that support the operation and maintenance of the system.
 
 * SREs typically have a strong background in software engineering and systems administration, and they are skilled in programming, automation, and system design. They are also often familiar with agile development methodologies and are adept at working in a fast-paced, dynamic environment.
 
