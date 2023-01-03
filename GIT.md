@@ -108,9 +108,12 @@
 
 * When you pull changes from a remote repository, Git will first check to see if there are any new commits on the remote repository that you don't have locally. If there are, Git will download the new commits and merge them into your local repository. If there are conflicts between the remote changes and your local changes, Git will prompt you to resolve the conflicts before completing the merge.
 
+## checkout
+
 ### 1st Setup
 
 ```bash
+git config --global init.defaultBranch main
 git config --global user.name username
 git config --global user.email email@provider.com
 ```

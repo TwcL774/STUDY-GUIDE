@@ -17,7 +17,7 @@
         - query to create and edit tables
     - DML : Data Manipulation Language
         - CRUD operations. Creating, Reading, Updating and Deleting information
-            create: insert into (table) values (data); 
+            create: insert into (table) values (data);
             read:   select * from (table);
             update: update (table) set (update),(update) where (which);
             delete: delete from (table) where (which);

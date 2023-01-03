@@ -120,3 +120,28 @@ docker-compose up
 ## Docker Workflow
 
 ![Docker Workflow via Microsoft](images/life-cycle-containerized-apps-docker-cli.png)
+
+### Docker Daemon
+
+* The Docker daemon (also called the Docker engine) is the background process that manages Docker objects, such as images, containers, and networks. It listens for Docker API requests and performs the necessary actions to manage the objects on behalf of the Docker client.
+
+* The Docker daemon is written in the Go programming language and runs on the host machine. It communicates with the Docker client using a REST API over a Unix socket or a network interface.
+
+* The Docker daemon is responsible for managing the lifecycle of Docker objects, including building and running images, creating and managing containers, and managing networks and volumes. It also serves as a registry for storing and distributing images, and it can be configured to use external image registries, such as Docker Hub.
+
+* In addition to the Docker daemon, the Docker ecosystem includes a number of other tools and services, such as Docker Compose for defining and running multi-container applications, Docker Swarm for orchestrating and managing a cluster of Docker engines, and Docker Hub for storing and distributing Docker images.
+
+## Docker Commands
+
+* docker build: Builds a Docker image from a Dockerfile.
+* docker run: Runs a command in a new container.
+* docker start, docker stop, docker restart: Starts, stops, or restarts a container.
+* docker exec: Runs a command in an existing container.
+* docker ps: Lists running containers.
+* docker logs: Shows the logs for a container.
+* docker images: Lists all Docker images on the host.
+* docker pull, docker push: Pulls or pushes an image from or to a registry.
+* docker rmi: Removes an image.
+* docker network: Manages Docker networks.
+* docker volume: Manages Docker volumes.
+* docker kill: Stops a running container.

@@ -8,7 +8,7 @@
 - [x] Spring
 - [x] SQL
 - [x] Git
-- Unix commands
+- [x] Unix commands _some_
 - AWS
 - [x] SRE
 - [x] Docker

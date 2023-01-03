@@ -105,7 +105,7 @@
 
 ## DQL
 
-* Data Query Language (DQL) is a subset of SQL that is used to retrieve and retrieve data from a database. It includes a set of commands and statements that can be used to perform various operations on the data stored in a database, such as selecting, filtering, and sorting data.
+* Data Query Language (DQL) is a subset of SQL that is used to retrieve data from a database. It includes a set of commands and statements that can be used to perform various operations on the data stored in a database, such as selecting, filtering, and sorting data.
 
 * Here are some examples of common DQL statements:
 
